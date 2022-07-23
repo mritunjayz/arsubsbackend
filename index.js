@@ -25,7 +25,7 @@ app.post('/', (req, res) => {
   axios
   .post('https://api-translate.systran.net/translation/text/translate', {
     input: req.body.text,
-    target: 'hi',
+    target: 'en',
   }, {
     headers: {
       Authorization: 'Key f7c1bb3b-a7bb-4736-b4ce-73fd305eaf9c',
